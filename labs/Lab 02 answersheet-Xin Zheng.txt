@@ -1,0 +1,81 @@
+Lab 02 Answer Sheet
+
+Task 1:
+
+6.	Cable type: 
+	Cross-over Cable
+
+8.	IPv4 address: 192.168.1.145
+	Subnet mask: 255.255.255.0
+	Default Gateway:192.168.1.1
+
+9.	Complete command and output:
+	
+	C:\Users\chris>ping 192.168.1.1
+
+	Pinging 192.168.1.1 with 32 bytes of data:
+	Reply from 192.168.1.1: bytes=32 time=5ms TTL=64
+	Reply from 192.168.1.1: bytes=32 time=3ms TTL=64
+	Reply from 192.168.1.1: bytes=32 time=2ms TTL=64
+	Reply from 192.168.1.1: bytes=32 time=6ms TTL=64
+
+	Ping statistics for 192.168.1.1:
+    	Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+	Approximate round trip times in milli-seconds:
+    	Minimum = 2ms, Maximum = 6ms, Average = 4ms
+
+
+
+Task 2:
+
+2.	Complete command used: ipconfig
+	IPv4 address reported: 
+
+	Pinging 192.168.1.10 with 32 bytes of data:
+	Reply from 192.168.1.10: bytes=32 time<1ms TTL=128
+	Reply from 192.168.1.10: bytes=32 time<1ms TTL=128
+	Reply from 192.168.1.10: bytes=32 time<1ms TTL=128
+	Reply from 192.168.1.10: bytes=32 time<1ms TTL=128
+
+	Ping statistics for 192.168.1.10:
+    	Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+	Approximate round trip times in milli-seconds:
+    	Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+3. Complete command used: 
+	ping 192.168.1.1
+	Pinging 192.168.1.1 with 32 bytes of data:
+	Reply from 192.168.1.1: bytes=32 time=10ms TTL=64
+	Reply from 192.168.1.1: bytes=32 time=3ms TTL=64
+	Reply from 192.168.1.1: bytes=32 time=3ms TTL=64
+	Reply from 192.168.1.1: bytes=32 time=6ms TTL=64
+
+	Ping statistics for 192.168.1.1:
+    	Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+	Approximate round trip times in milli-seconds:
+    	Minimum = 3ms, Maximum = 10ms, Average = 5ms
+
+Task 3:
+
+1. Complete command used: 
+	ipconfig /all
+
+2. Complete command used: 
+	ping Default Gateway
+	ping 172.16.255.254
+
+	Pinging 172.16.255.254 with 32 bytes of data:
+	Reply from 172.16.255.254: bytes=32 time=2ms TTL=255
+	Reply from 172.16.255.254: bytes=32 time=2ms TTL=255
+	Reply from 172.16.255.254: bytes=32 time=2ms TTL=255
+	Reply from 172.16.255.254: bytes=32 time=2ms TTL=255
+
+	Ping statistics for 172.16.255.254:
+    	Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+	Approximate round trip times in milli-seconds:
+    	Minimum = 2ms, Maximum = 2ms, Average = 2ms
+
+---------------------------------------------------------------------
+WHEN DONE, SUBMIT THIS FILE AND THE WIRESHARK CAPTURE TO BRIGHTSPACE
+---------------------------------------------------------------------
+

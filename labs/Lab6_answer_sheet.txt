@@ -1,0 +1,56 @@
+Lab 6
+=====
+
+Full Name: Xin Zheng
+
+Student Number: 041151348
+
+Task 3:
+-------
+
+3. a. TTL:128
+
+   b. Type: 0x08
+
+      Code: 0x00
+
+
+4. Any values changed? Yes
+
+   If so, which ones? TTL field decreased from 128 to 127
+
+
+5. a. TTL:127
+
+   b. Type: 0
+
+      Code: 0
+
+Task 4:
+-------
+5. a. Source IP matches: Router0
+
+   b. Destination IP matches: PC
+
+   c. ICMP Type 11 means: Time Exceeded
+
+   d. After the ICMP header: IP header and first 8 bytes of the original datagram
+
+
+8. a. Destination IP belongs to: PC
+    
+   b. The PDU traveled farther because: TTL=2 allows the packet to pass through one additional router compared to TTL=1
+    
+   c. Neither PDU reached the Server because: The TTL expired at Router1 before reaching the Server
+
+
+10. a. The PDU traveled to: Router0
+    
+    b. Type 3 means: Destination Unreachable, Code 1 means: Host Unreachable
+
+
+12. a. PDU type moving toward the Server:UDP
+
+    b. Type 3 means: Destination Unreachable, Code 3 means: Port Unreachable
+
+Include the completed Packet Tracer activity file with your submission.

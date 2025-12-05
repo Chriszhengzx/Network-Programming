@@ -1,0 +1,86 @@
+Lab 3 Answer Sheet
+==================
+Note: DO NOT use MS-Word to edit this document, use text editors such as Notepad.
+
+-----------------------------------------------------------------
+
+Your full name: Xin Zheng
+
+Your lab Partner's full name: Zhibo Xing
+
+-----------------------------------------------------------------
+
+1.7: IPv4 Information
+
+Yours:
+
+IPv4 address:	192.168.1.135 
+
+Subnet Mask:	255.255.255.0 
+
+MAC address:	00:E0:4C:6E:C6:D9 
+
+==================================
+
+Your partner's:
+
+IPv4 address:	192.168.1.10 
+
+Subnet Mask:	255.255.255.0 
+
+MAC address:	C8:A3:62:D3:2B:2A 
+
+==================================
+
+
+1.8:
+
+Default Gateway:	192.168.1.1 
+
+
+
+1.9:
+Are the Default Gateway addresses the same? Why?
+It is same because we are in the same LAN.
+
+
+
+5.1 
+
+A. What is the layer 7 protocol? 
+	HTTP
+
+B. What is the Layer 4 protocol? 
+	TCP
+
+C. What is the Layer 3 protocol? 
+	IPv4
+
+D. What is the Layer 2 protocol? 
+	Ethernet
+
+E. What is the frame's destination MAC address?  
+	00:e0:4c:6e:c6:d9  
+
+   E.I. This destination's MAC address belongs to which device? 
+	web server
+
+f. What is the destination IP address?  . . .  
+	192.168.1.135
+
+   F.I. This IP address belongs to which device? 
+	web server
+
+g. What is the destination port? 
+	8088
+
+   G.I. This destination port belongs to which application? 
+	HTTP service (web server)
+
+6. Challenge Question answer:
+	What would be the layer 2 destination MAC address?
+	It would be default gateway's MAC address. 
+
+	the layer 3  IP address is 192.168.0.50
+	the layer 4 destination port is 80 (HTTP) when the message leaves the client laptop. 
+

@@ -1,0 +1,36 @@
+Lab 7
+=====
+Note: DO NOT use MS-Word to edit this document, use a text editor such as Notepad.
+
+Task 1:
+
+===================================================
+
+(Your details)
+
+Name: Xin Zheng
+
+IPv4 address: 172.16.254.17
+
+Subnet Mask: 255.255.255.0
+
+Gateway IP: 172.16.254.254
+
+Internet Port IP: 10.10.10.2
+
+===================================================
+
+(Your partner's details)
+
+Name: Zhibo Xing
+
+IPv4 address: 192.168.254.6
+
+Subnet Mask: 255.255.255.0
+
+Gateway IP: 192.168.254.254
+
+Internet Port IP: 10.10.10.1
+
+===================================================
+

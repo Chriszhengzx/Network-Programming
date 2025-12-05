@@ -1,0 +1,63 @@
+(Note: VLSM question taken from the netacad.com course. There's a video showing how to solve this question as well on the course)
+
+Sample question answered in class:
+
+Initial network: 172.16.0.0 /23
+Create subnets for the following:
+
+- Network A for 200 hosts
+- Network B for 100 hosts
+- Network C for 50 hosts
+- Network D for 25 hosts
+- Network E for 10 hosts
+- Networks F,G,H,I for 2 hosts each
+
+Answer:
+Starting from the largest to the smallest number of hosts
+
+For 200 hosts, we need 8 host bits => 1 subnet bit
+We borrow 1 bit for subnetting, and get these subnets:
+172.16.(0000 000S).(HHHH HHHH) / 24
+A 172.16.0.0 /24 (for network A)
+x 172.16.1.0 /24
+
+For 100 hosts, we need 7 host bits (2^7 - 2 = 126 >= 100)
+We borrow 1 bit for subnetting, and get these subnets:
+172.16.(0000 0001).(SHHH HHHH) / 25
+B 172.16.1.0 /25 (for network B)
+x 172.16.1.128 /25
+
+For 50 hosts, we need 6 host bits (2^6 - 2 = 62 >= 50)
+We borrow 1 bit for subnetting, and get these subnets:
+172.16.(0000 0001).(1SHH HHHH) / 26
+
+C 172.16.1.128 /26 (for network C)
+x 172.16.1.192 /26
+
+For 25 hosts, we need 5 host bits (2^5 - 2 = 30 >= 25)
+We borrow 1 bit for subnetting, and get these subnets:
+172.16.(0000 0001).(11SH HHHH) / 27
+
+D 172.16.1.192 /27 (for network D)
+x 172.16.1.224 /27
+
+For 10 hosts, we need 4 host bits (2^4 - 2 = 14 >= 10)
+We borrow 1 bit for subnetting, and get these subnets:
+
+172.16.(0000 0001).(111S HHHH) / 28
+
+E 172.16.1.224 /28 (for network E)
+x 172.16.1.240 /28
+
+For 2 hosts, we need 2 host bits (2^2 - 2 = 2 >= 2)
+
+We borrow 2 bit for subnetting, and get these subnets:
+
+172.16.(0000 0001).(1111 SSHH) / 30
+
+F 172.16.1.240 /30 (for network F)
+G 172.16.1.244 /30 (for network G)
+H 172.16.1.248 /30 (for network H)
+I 172.16.1.252 /30 (for network I)
+
+

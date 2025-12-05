@@ -1,0 +1,66 @@
+Lab 4
+=====
+Note: DO NOT use MS-Word to edit this document, use a text editor such as Notepad.
+
+Task 1:
+
+In this lab, you use Laptop 1 or 2: Laptop 1, server
+
+===================================================
+
+(Your details)
+
+Name: Xin Zheng
+
+IPv4 address: 192.168.10.143
+
+Subnet Mask: 255.255.255.0
+
+MAC address: 00-E0-4C-6E-C6-D9
+
+Gateway MAC address: 14-91-82-88-0C-C0
+
+===================================================
+
+(Your partner's details)
+
+Name: Zhibo Xing
+
+IPv4 address: 192.168.20.133
+
+Subnet Mask: 255.255.255.0
+
+MAC address: C8-A3-62-D3-2B-2A
+
+Gateway MAC address: 14-91-82-88-0F-DB
+
+===================================================
+
+Task 3:
+
+Q6-B) http && ip.dst == 192.168.10.143 && ip.src == 192.168.20.133
+
+Q7-A) It is different.
+
+Q7-B) if you answered "different" in Q7-A:
+
+   i.
+They do not match because the client and server are on different network segments. Each router re-encapsulates the Ethernet frame when forwarding between subnets, replacing the source and destination MAC addresses with its own interface addresses.
+  
+  
+  ii. The destination MAC corresponds to the default gateway router interface on the client’s subnet.
+
+
+ iii. The source MAC corresponds to the client’s NIC, or the router interface if viewing the server-side capture.
+
+
+
+Q8-C) No entries for partner’s IP or MAC.
+      This is because the partner is in a different subnet (192.168.20.133); communication goes through the router rather than directly.
+
+Q8-D)
+
+  Internet Address      Physical Address      Type
+  192.168.10.1          14-91-82-88-0C-C0     dynamic
+   
+
